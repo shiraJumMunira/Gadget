@@ -1,0 +1,78 @@
+body{
+    font-family:'Lato', sans-serif;
+}
+section{
+    margin-bottom: 100px;
+}
+.header-section {
+    background-image: url(images/banner-products/bannar.png);
+}
+.navbar img {
+    width: 100px;
+}
+.bannar-section{
+    background-image: url(images/banner-products/bannar.png);
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 2%;
+}
+.bannar-heading {
+    padding: 100px;
+}
+.buy-now {
+    background-color: #FF1C75;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 20px;
+    font-weight: bold;
+}
+.buy-now:hover{
+    background-color: black;
+}
+
+.bannar-heading h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.bannar-heading p {
+    color: #979696;
+    font-size: 17px;
+}
+.carousel-indicators li{
+    background-image: linear-gradient(45deg, orange , rgb(246, 211, 12));
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(45deg, orange , rgb(246, 211, 12));
+    width: 25px;
+    height: 6px;
+    border-radius:48%;
+}
+ol{
+    margin-bottom: 0;
+}
+.smart-titel a{
+    color: gold;
+}
+.smart-titel a:hover{
+    color:red;
+}
+.rounded {
+    border-radius: 1.25rem!important;
+}
+.card-footer {
+    border-radius: 20px !important;
+}
+
+.product {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.image-size img {
+    width: 100%;
+}
